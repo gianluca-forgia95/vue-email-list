@@ -20,13 +20,16 @@
 .wrapper {
   display: flex;
   flex-direction: column;
+  width: 600px;
 }
 .container-img {
   width: 600px;
-  margin-top: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.profile {
+  border-radius: 50%;
 }
 .cnt {
   margin: auto;
@@ -34,7 +37,4 @@
 .box-img img {
   max-width: 100px;
   height: 100px;
-}
-.profile {
-  border-radius: 50%;
 }

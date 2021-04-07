@@ -22,11 +22,13 @@
   </head>
   <body>
     <div id="root">
+    <!-- Lista di email ricevute dall'API -->
      <div class="email-list">
        <ul>
          <li v-for="email in emailList" class="mail">{{email}}</li>
        </ul>
      </div>
+  <!-- /Lista di email ricevute dall'API -->
      <div class="wrapper">
        <h2 class="cnt">Cosa pensavo di fare domani</h2>
        <div class="container-img">
@@ -37,7 +39,6 @@
          <div class="box-img">
            <img src="img/asrLogo.svg.png" alt="">
          </div>
-
        </div>
        <h2 class="cnt">Cosa farò in realtà</h2>
        <div class="container-img">
@@ -49,17 +50,8 @@
            <img class="profile" src="img/me.jpg" alt="">
          </div>
        </div>
-
      </div>
-
-
     </div>
-
-
-
-
-
-
     <script src="js/script.js" charset="utf-8"></script>
   </body>
 </html>
