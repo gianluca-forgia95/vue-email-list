@@ -16,8 +16,6 @@ el: '#root',
      }
    },
 
-
-
    methods: {
 
    }

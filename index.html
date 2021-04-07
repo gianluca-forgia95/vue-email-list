@@ -2,6 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <!-- /Google Font -->
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- /FontAwesome -->
     <!-- Axios -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js" integrity="sha512-otOZr2EcknK9a5aa3BbMR9XOjYKtxxscwyRHN6zmdXuRfJ5uApkHB7cz1laWk2g8RKLzV9qv/fl3RPwfCuoxHQ==" crossorigin="anonymous"></script>
     <!-- /Axios -->
@@ -17,10 +24,34 @@
     <div id="root">
      <div class="email-list">
        <ul>
-         <li v-for="email in emailList">{{email}}</li>
+         <li v-for="email in emailList" class="mail">{{email}}</li>
        </ul>
+     </div>
+     <div class="wrapper">
+       <h2 class="cnt">Cosa pensavo di fare domani</h2>
+       <div class="container-img">
+         <div class="box-img">
+           <img src="img/ajlg.jpg" alt="">
+         </div>
+         <h2>VS</h2>
+         <div class="box-img">
+           <img src="img/asrLogo.svg.png" alt="">
+         </div>
+
+       </div>
+       <h2 class="cnt">Cosa farò in realtà</h2>
+       <div class="container-img">
+         <div class="box-img">
+           <img src="img/ajaxcall.png" alt="">
+         </div>
+         <h2>VS</h2>
+         <div class="box-img">
+           <img class="profile" src="img/me.jpg" alt="">
+         </div>
+       </div>
 
      </div>
+
 
     </div>
 
