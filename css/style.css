@@ -5,9 +5,7 @@
 }
 #root {
   display: flex;
-  justify-content: space-between;
   font-family: 'Acme', sans-serif;
-
 }
 .email-list ul {
   list-style: none;
@@ -16,25 +14,4 @@
 }
 .mail {
   font-size: 40px;
-}
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 600px;
-}
-.container-img {
-  width: 600px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.profile {
-  border-radius: 50%;
-}
-.cnt {
-  margin: auto;
-}
-.box-img img {
-  max-width: 100px;
-  height: 100px;
 }
